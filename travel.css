@@ -1,0 +1,14 @@
+$color: gey;
+
+div{
+  font-size: 30px;
+
+  h4{
+    color: $color;
+  }
+
+  ul{
+    color: $color;
+  }
+
+}

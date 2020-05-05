@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #F7EDED	;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: Baloo+Bhaina;
+}
+
+.navlinks{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-around;
+  position: absolute;
+  right: 0px;
+}
+.navlinks li{
+  list-style: none;
+}
+
+.navlinks a{
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+#aboutme > h3 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin: auto;
+  padding: auto;
+}
+
+#aboutme > p{
+  font-size: 35px;
+  font-family: Baloo+Bhaina;
+  text-align: center;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  margin: 20px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#aboutme > p::first-letter{
+  font-weight: bold;
+  font-size: 50px;
+  color: grey;
+}
+
+.query{
+  text-align: center;
+}
+
+.or{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.fa-blog{
+
+  font-size: 50px;
+  position: absolute;
+  margin: 10px;
+  left: 0px;
+
+}
+
+
+.fa-instagram{
+  font-size: 50px;
+  color: black;
+  margin: 10px;
+  position: absolute;
+  right: 50%;
+ 
+}
+
+.fa-twitter{
+  font-size: 50px;
+  color: blue;
+  margin: 10px;
+  position: absolute;
+  right: 30%;
+}
+
+.fa-facebook-f{
+  font-size: 50px;
+  color: blue;
+  margin: 10px;
+  position: absolute;
+  left: 30%;
+
+}
+
+.query > button:hover{
+  color: blue;
+}
